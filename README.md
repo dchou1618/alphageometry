@@ -58,6 +58,10 @@ bash download.sh
 DATA=ag_ckpt_vocab
 ```
 
+`download.sh: line 16: gdown: command not found`
+  * `pip install --upgrade --no-cache-dir gdown`
+
+
 Finally, install `meliad` separately as it is not
 registered with `pip`:
 
