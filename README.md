@@ -39,8 +39,7 @@ All instructions in this `README.md` can be run in one go by:
 bash run.sh
 ```
 Potential Errors:
-  * virtualenv is not compatible with this system or executable
-   1. conda install virtualenv 
+  * virtualenv is not compatible with this system or executable > conda install virtualenv 
 
 Below, we explain these instructions step-by-step.
 
@@ -61,8 +60,7 @@ bash download.sh
 DATA=ag_ckpt_vocab
 ```
 Potential Errors:
-  * `download.sh: line 16: gdown: command not found`
-   1. `pip install --upgrade --no-cache-dir gdown`
+  * `download.sh: line 16: gdown: command not found` > `pip install --upgrade --no-cache-dir gdown`
 
 Finally, install `meliad` separately as it is not
 registered with `pip`:
